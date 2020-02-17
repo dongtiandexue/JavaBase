@@ -1,8 +1,7 @@
 
 # Java基础知识整理总结
 
-
-![无奋斗不青春](C:\Users\huawei\Desktop\20151229113211913.jpg)
+![NoDreamNoFutur](https://github.com/dongtiandexue/JavaBase/blob/master/pic/NoDreamNoFuture.jpg)
 
 ## 第一部分 JVM
 
