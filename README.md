@@ -1,12 +1,14 @@
 
 # Java基础知识整理总结
 
-![NoDreamNoFutur](https://github.com/dongtiandexue/JavaBase/blob/master/pic/NoDreamNoFuture.jpg)
+![NoDreamNoFuture](https://github.com/dongtiandexue/JavaBase/blob/master/pic/NoDreamNoFuture.jpg)
 
 ## 第一部分 JVM
 
-- JVM内存结构及每个部分的作用？
-- 垃圾回收算法
+- JVM内存模型及各部分的作用？
+- 垃圾回收算法与利弊分析
+    - 引用计数法
+    - 可达性分析算法（哪些可以作为GCRoot？）
 - 说说你知道的垃圾收集器有哪些？如何使用的？
 - 如何进行JVM参数调优？需要关注的参数有哪些？
 - JVM常见异常追根究底
@@ -14,7 +16,7 @@
 - 类加载的过程分析
 - 类加载器
 
-## 第二部分 JAVA基础及源码分析
+## 第二部分 JAVA基础
 
 - HashMap底层原理，数据结构，put/get方法过程
 - ConcurrentHashMap底层原理分析？以及和HashMap对比
@@ -50,9 +52,9 @@
 
 ## 第五部分 数据结构与算法
 
-- 数组，队列，单向链表，双向链表
+- 数组，队列，单向链表，双向链表，红黑树，B+树
 
-第六部分 数据库
+## 第六部分 数据库
 
 Mysql
 
@@ -94,10 +96,26 @@ RocketMQ
 
 Kafka
 
+Mycat数据库中间件
+
 ## 第九部分 生产力工具
 
-虚拟机按照centos7
+虚拟机安装centos7
 
 docker
 
 github使用技巧
+
+linux使用技巧
+
+
+
+## 第十部分 设计模式
+
+- 工厂模式
+- 单例模式
+- 建造者模式
+- 装饰着模式
+- 代理模式
+- 桥接模式
+- 模板方法模式

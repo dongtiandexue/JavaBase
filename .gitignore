@@ -6,6 +6,12 @@
 # Log file
 *.log
 
+# idea sets #
+*.idea
+*.iml
+*.iws
+*.ipr
+
 # BlueJ files
 *.ctxt
 
